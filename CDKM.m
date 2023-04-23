@@ -5,12 +5,13 @@ function [Y, minO, iter_num, obj] = CDKM(X, label,c)
 % label is initial label n*1
 % c is the number of clusters
 % code for F. Nie, J. Xue, D. Wu, R. Wang, H. Li, and X. Li, 
-%¡°Coordinate descent method for k-means,¡± IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021
+%Â¡Â°Coordinate descent method for k-means,Â¡Â± IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021
 % Output
 % Y is the label vector n*1
 % minO is the Converged objective function value
 % iter_num is the number of iteration
 % obj is the objective function value
+% It is written by Jingjing Xue
 
 
 [~,n] = size(X);
